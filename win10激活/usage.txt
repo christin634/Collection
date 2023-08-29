@@ -1,0 +1,5 @@
+以windows作为KMS服务器，使用vlmcsd-Windows-x64.exe（binaries->Windows->intel）
+1、在服务器上运行vlmcsd-Windows-x64.exe -s		(管理员)
+2、win+r输入services或直接搜索服务，启动Key Management Server
+3、将win_activate.bat中，kms服务器设置成服务器地址
+4、在待激活机器上以管理员身份运行win_activate.bat
