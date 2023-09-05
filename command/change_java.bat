@@ -1,10 +1,10 @@
 @echo off
 
 :: Define the available Java versions and their corresponding JAVA_HOME paths
-set "versions[1]=%JAVA5_HOME%"
-set "versions[2]=%JAVA8_HOME%"
-set "versions[3]=%JAVA11_HOME%"
-set "versions[4]=%JAVA17_HOME%"
+set "versions[1]=%%JAVA5_HOME%%"
+set "versions[2]=%%JAVA8_HOME%%"
+set "versions[3]=%%JAVA11_HOME%%"
+set "versions[4]=%%JAVA17_HOME%%"
 
 :: Prompt user to select the desired Java version
 echo Select the Java version:
