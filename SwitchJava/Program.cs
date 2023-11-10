@@ -61,6 +61,7 @@ namespace SwitchJava
         {
             Environment.SetEnvironmentVariable("JAVA_HOME", path, EnvironmentVariableTarget.Machine);
             Console.WriteLine("[+]Java版本切换成功");
+            Console.ReadKey();
         }
 
         static void Main(string[] args)
